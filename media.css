@@ -1,0 +1,366 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .container {
+    max-width: 1270px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1570px;
+  }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* ===============================================================MAX-768============================================================*/
+@media screen and ((min-width: 320px) and (max-width: 768px)) {
+  /* ---------------------------------------------HEADER-------------------------------------- */
+  .header .logo {
+    display: none;
+  }
+  .header .container nav ul {
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 0 15px;
+  }
+  .header .container nav .button a {
+    font-size: 10px;
+    border: 2px #d5621d solid;
+    border-radius: 5px;
+    padding: 15px 10px;
+  }
+
+  .header .container nav .button {
+    border: none;
+  }
+
+  /* ---------------------------------------------SECTION-ONE---------------------------------- */
+
+  .left {
+    min-width: 100%;
+  }
+
+  .section-one .container .right {
+    min-width: 100%;
+    max-height: 100%;
+  }
+  .section-one .container .right .items .item {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+  }
+  .content {
+    flex-wrap: wrap;
+  }
+  .section-one .container .content h1 {
+    font-size: 20px;
+  }
+
+  .section-one .container .content .left .button a {
+    font-size: 10px;
+  }
+  /* ------------------------------------------------SECTION-TWO------------------------------------- */
+  .section-two .container .content .wrapper__items .items .item {
+    min-width: 320px;
+    max-width: 100%;
+  }
+  .section-two .container .content .wrapper__items .imge {
+    display: none;
+  }
+  .section-two
+    .container
+    .content
+    .wrapper__items
+    .items
+    .item
+    .text
+    .text__up
+    h4 {
+    font-size: 16px;
+  }
+  .section-two
+    .container
+    .content
+    .wrapper__items
+    .items
+    .item
+    .text
+    .text__bot
+    p:last-child {
+    font-size: 12px;
+  }
+
+  .section-two
+    .container
+    .content
+    .wrapper__items
+    .items
+    .item
+    .text
+    .text__up
+    a {
+    font-size: 12px;
+  }
+  .section-two .container .content .button a {
+    font-size: 16px;
+  }
+  /* ------------------------------------------------SECTION-THREE------------------------------------- */
+  .section-three .container .content .center {
+    display: none;
+  }
+
+  .section-three .container .content {
+    justify-content: normal;
+    gap: 40px;
+  }
+
+  .section-three .container .content .left {
+    background: url(section-three/Rectangle\ 39.png) no-repeat center / cover;
+    height: 100%;
+    justify-content: normal;
+    gap: 20px;
+    padding: 10px 10px;
+    max-width: 50%;
+  }
+
+  .section-three .container .content .left .p {
+    background-color: #333333;
+  }
+
+  .section-three .container .content .left a {
+    font-size: 12px;
+  }
+  /* ------------------------------------------------SECTION-FOUR------------------------------------- */
+
+  .section-four .container .content .blocks {
+    flex-wrap: wrap;
+  }
+  .section-four .container .content .blocks .blocklLeft__items {
+    padding: 0 10px;
+    min-width: 300px;
+    width: 100%;
+  }
+  .section-four .container .content .blocks .block-right__items {
+    min-width: 300px;
+    margin-top: 40px;
+    padding: 0 10px;
+  }
+  .section-four
+    .container
+    .content
+    .blocks
+    .blocklLeft__items
+    .Loudspeakers
+    .Loudspeakers__items
+    ul
+    li {
+    font-size: 10px;
+  }
+  .section-four
+    .container
+    .content
+    .blocks
+    .block-right__items
+    .items
+    .item
+    .i2
+    img {
+    min-width: 100px;
+    max-width: 150px;
+    padding: 0 10px;
+  }
+  .section-four .container .content .blocks .block-right__items h3 {
+    font-size: 20px;
+  }
+  .section-four .container .content .blocks .blocklLeft__items .item {
+    padding: 10px;
+  }
+  .section-four .container .content .blocks .blocklLeft__items .Loudspeakers {
+    padding: 10px;
+  }
+  /* ------------------------------------------------SECTION-FIVE------------------------------------- */
+  .section-five .container .content .blocks {
+    flex-wrap: wrap;
+  }
+  .section-five .container .content .blocks .blockright__items {
+    min-width: 320px;
+    max-width: 750px;
+    height: 600px;
+    padding: 10px;
+  }
+  .section-five .container .content .blocks .blockleft__items {
+    width: 100%;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+
+  /* ===================================================MAX-992================================================================== */
+  @media screen and ((min-width: 768px) and (max-width: 992px)) {
+    /* ---------------------------------------------HEADER-------------------------------------- */
+
+    .header .container nav ul {
+      gap: 15px;
+      flex-wrap: wrap;
+      padding: 0 15px;
+    }
+    /* ---------------------------------------------SECTION-ONE---------------------------------- */
+
+    .right {
+      min-width: 300px;
+    }
+    .left {
+      min-width: 300px;
+    }
+
+    .section-one .container .content h1 {
+      font-size: 20px;
+    }
+
+    .section-one .container .content .left .button a {
+      font-size: 10px;
+    }
+    /* ------------------------------------------------SECTION-TWO------------------------------------- */
+    .section-two .container .content .wrapper__items .items .item {
+      min-width: 400px;
+    }
+    /* ------------------------------------------------SECTION-THREE------------------------------------- */
+    .section-three .container .content .center {
+      display: none;
+    }
+
+    .section-three .container .content {
+      background: url(section-three/Rectangle\ 39.png) no-repeat center / cover;
+      height: 100%;
+      justify-content: normal;
+      gap: 20px;
+      padding: 10px 0;
+    }
+
+    .section-three .container .content .left {
+      max-width: 50%;
+    }
+
+    .section-three .container .content .left .p {
+      background-color: #333333;
+    }
+
+    .section-three .container .content .left a {
+      font-size: 12px;
+    }
+    /* ------------------------------------------------SECTION-FOUR------------------------------------- */
+    .section-four .container .content .blocks .block-right__items h3 {
+      font-size: 20px;
+    }
+    .section-four .container .content .blocks .blocklLeft__items .item {
+      padding: 10px;
+    }
+    .section-four .container .content .blocks .blocklLeft__items .Loudspeakers {
+      padding: 10px;
+    }
+    .section-four
+      .container
+      .content
+      .blocks
+      .block-right__items
+      .items
+      .item
+      .i2
+      img {
+      min-width: 100px;
+      max-width: 150px;
+    }
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =========================================================MAX-1300===================================================================== */
+  @media screen and ((min-width: 992px) and (max-width: 1300px)) {
+    /* ------------------------------------------------SECTION-TWO------------------------------------- */
+    .section-two .container .content .wrapper__items .items {
+      gap: 40px;
+    }
+    .section-two .container .content .wrapper__items .items .item {
+      min-width: 375px;
+    }
+
+    /* ------------------------------------------------SECTION-THREE------------------------------------- */
+    .section-three .container .content .left a {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+  }
+}
